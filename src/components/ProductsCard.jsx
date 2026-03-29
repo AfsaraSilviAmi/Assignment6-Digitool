@@ -1,6 +1,7 @@
 import React from 'react';
 
-const ProductsCard = ({product}) => {
+const ProductsCard = ({product, handleCart, goCart}) => {
+    const inCart = goCart.filter(cartItem => cartItem.id === product.id).length>0;
     return (
         <div>
             <div className="card md:w-90 bg-base-100 shadow-sm relative rounded-2xl mb-3">
@@ -20,7 +21,7 @@ const ProductsCard = ({product}) => {
       }
     </ul>
     <div className="mt-6">
-      <button className=" w-full text-[16px] btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-3xl">Buy Now</button>
+      <button onClick={()=>handleCart(product)} disabled={inCart} className={`w-full text-[16px] btn ${inCart? "bg-green-500" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"} text-white rounded-3xl`}>{inCart? "Added to Cart" : "Buy Now"}</button>
     </div>
   </div>
 </div>

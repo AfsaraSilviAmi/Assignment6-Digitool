@@ -3,8 +3,8 @@ import { IoCartOutline } from 'react-icons/io5';
 
 const NavBar = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100 shadow-sm px-0 md:p-2 md:px-10 sticky top-0 z-10 flex flex-col md:flex-row"> 
+        <div className='sticky top-0 z-50'>
+            <div className="navbar bg-base-100 shadow-sm px-0 md:p-2 md:px-10 flex flex-col md:flex-row"> 
   <div className='flex w-full justify-between items-center'>
     <div className="navbar-start">
     <div className="dropdown">

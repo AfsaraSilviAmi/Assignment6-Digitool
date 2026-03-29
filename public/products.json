@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Advanced AI tool to generate blogs, emails, and marketing copy instantly.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "badgeColor": "badge-primary",
+    "features": ["AI blog generation", "Grammar correction", "SEO optimization"],
+    "icon": "https://i.ibb.co.com/chJwzCTD/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "High-quality templates for social media, presentations, and branding.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "badgeColor": "badge-warning",
+    "features": ["500+ templates", "Editable files", "Commercial use license"],
+    "icon": "https://i.ibb.co.com/F4nFhVFR/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Unlimited access to premium images, videos, and graphics.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "badgeColor": "badge-success",
+    "features": ["10K+ assets", "HD quality", "Royalty-free"],
+    "icon": "https://i.ibb.co.com/mFJ8FSGs/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and workflows efficiently.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "badgeColor": "badge-primary",
+    "features": ["Workflow automation", "API integrations", "Task scheduling"],
+    "icon": "https://i.ibb.co.com/QvVxZpQD/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "badgeColor": "badge-warning",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/p6PcH1Z3/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Pre-made content ideas and designs for all social platforms.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "badgeColor": "badge-success",
+    "features": ["Content calendar", "Post templates", "Caption ideas"],
+    "icon": "https://i.ibb.co.com/xS5PmJGX/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "AI Story Generator",
+    "description": "Generate creative stories, scripts, and captions with AI.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "badgeColor": "badge-primary",
+    "features": ["Story generator", "Multi-language support", "Tone customization"],
+    "icon": "https://i.ibb.co.com/F4nFhVFR/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "Workflow Optimizer",
+    "description": "Minimal and modern UI kits for web and mobile design.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "badgeColor": "badge-warning",
+    "features": ["UI kits", "Figma files", "Responsive layouts"],
+    "icon": "https://i.ibb.co.com/QvVxZpQD/operation.png"
+  },
+  {
+    "id": 9,
+    "name": "Icon Generator",
+    "description": "Exclusive collection of premium illustrations and icons.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "badgeColor": "badge-primary",
+    "features": ["Vector files", "SVG icons", "Unlimited downloads"],
+    "icon": "https://i.ibb.co.com/mFJ8FSGs/camera.png"
+  }
+]

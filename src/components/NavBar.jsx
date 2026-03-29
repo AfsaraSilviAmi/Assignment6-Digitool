@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoCartOutline } from 'react-icons/io5';
 
-const NavBar = () => {
+const NavBar = ({goCart}) => {
     return (
         <div className='sticky top-0 z-50'>
             <div className="navbar bg-base-100 shadow-sm px-0 md:p-2 md:px-10 flex flex-col md:flex-row"> 
@@ -34,7 +34,9 @@ const NavBar = () => {
   </div>
   </div>
   <div className="navbar-end flex flex-wrap">
-    <a className='btn bg-white border-none font-semibold text-[16px]'><IoCartOutline></IoCartOutline></a>
+    <a className='btn bg-white border-none font-semibold text-[25px] relative'><IoCartOutline/>{
+        goCart.length>0 && (<span className='absolute top-0 right-2 text-white w-5 text-[12px] bg-red-400 rounded-full'>{goCart.length}</span>)
+    }</a>
     <a className="btn bg-white border-none font-semibold text-[16px]">Login</a>
     <a className="font-semibold text-[16px] btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-3xl">Get Started</a>
   </div>

@@ -9,6 +9,7 @@ import Cart from './components/Cart'
 import { toast, ToastContainer } from 'react-toastify'
 import Step from './components/Step'
 import PricingDiv from './components/PricingDiv'
+import Footer from './components/Footer'
 
 function App() {
 const productPromise = fetch("/products.json").then((res)=>res.json());
@@ -50,6 +51,7 @@ const handleCheckOut = ()=>{
       </Suspense>
       <Step></Step>
       <PricingDiv></PricingDiv>
+      <Footer></Footer>
       <ToastContainer/>
     </>
   )

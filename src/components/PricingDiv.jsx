@@ -8,7 +8,7 @@ const PricingDiv = () => {
                 <p className='text-[16px] text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
             <div>
-                <div className='grid md:grid-cols-3 w-10/12 mx-auto mt-15 items-stretch'>
+                <div className='grid md:grid-cols-3 gap-5 w-10/12 mx-auto mt-15 items-stretch'>
                     <div className="card bg-base-100 shadow-md flex flex-col rounded-4xl">
   <div className="card-body flex flex-col h-full">
     <div>
@@ -81,8 +81,8 @@ const PricingDiv = () => {
     </div>
   </div>
 </div>
-                    <div className="card bg-base-100 shadow-md flex flex-col">
-  <div className="card-body flex flex-col h-full rounded-4xl">
+                    <div className="card bg-base-100 shadow-md flex flex-col rounded-4xl">
+  <div className="card-body flex flex-col h-full">
     <div>
       <h2 className="text-[24px] font-bold bg-base-100">Enterprise</h2>
       <p className='mb-4 text-[16px] text-[#627382]'>For teams and businesses</p>

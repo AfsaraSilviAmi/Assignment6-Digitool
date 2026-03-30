@@ -6,6 +6,7 @@ import Stats from './components/Stats'
 import Tab from './components/Tab'
 import Products from './components/Products'
 import Cart from './components/Cart'
+import { toast, ToastContainer } from 'react-toastify'
 
 function App() {
 const productPromise = fetch("/products.json").then((res)=>res.json());
@@ -16,15 +17,19 @@ const handleCart = (items) =>{
 
   if(existItems.length===0){
     setGoCart(prev =>[...prev, items])
+    toast.success(`(${items.name}) added to Cart!`)
   }
+  
 }
 
 const handleDelete = (item)=>{
   setGoCart(cartDel => cartDel.filter(Cartitem => Cartitem.id !== item.id))
+  toast.error(`(${item.name}) Remove from Cart!`)
 }
 
 const handleCheckOut = ()=>{
   setGoCart([]);
+  toast.success("Your Payment is Succssful! 🥳🥳")
 }
 
   return (
@@ -41,6 +46,7 @@ const handleCheckOut = ()=>{
         toggle === "cart" && <Cart handleCheckOut={handleCheckOut} handleDelete={handleDelete} goCart={goCart}></Cart>
        }
       </Suspense>
+      <ToastContainer/>
     </>
   )
 }

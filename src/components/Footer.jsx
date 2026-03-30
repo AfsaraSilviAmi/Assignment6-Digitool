@@ -18,7 +18,7 @@ const Footer = () => {
                <p className='text-[16px]'>14-day free trial • No credit card required • Cancel anytime</p>
             </div>
             <div className='bg-[#101727] pb-10 pt-15'>
-                  <footer className="footer text-white sm:footer-horizontal p-10 w-10/12 mx-auto">
+                  <footer className="footer text-white md:footer-horizontal p-10 w-10/12 mx-auto">
   <aside>
     
     <p className='text-4xl font-bold mb-4'>DigiTools</p>

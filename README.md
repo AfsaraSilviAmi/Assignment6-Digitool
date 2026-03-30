@@ -1,11 +1,11 @@
-#🚀Project Name: DigiTools Platform
+# 🚀Project Name: DigiTools Platform
 
-##📖Description:
+## 📖Description:
 
  DigiTools is a modern web application that has a collection of premium and affordable digital tools that is used to boost productivity and creativity. Users are able to explore tools, add the desired product in their carts and buy their products through a checkout system. ALl of this packed into a very responsive and easy User Interface.
 
 
-##⚙️Technologies Used:
+## ⚙️Technologies Used:
 
 - React.js
 - Tailwind CSS, DaisyUI
@@ -13,7 +13,7 @@
 - React-Toastify (NPM Package)
 - JSON (for product data)
 
-##🎯Features:
+## 🎯Features:
 
 - Product Showcasing in a simple and responsive design
 - Add to Cart Functionality with dynamic total price count and checkout

@@ -19,6 +19,14 @@ const handleCart = (items) =>{
   }
 }
 
+const handleDelete = (item)=>{
+  setGoCart(cartDel => cartDel.filter(Cartitem => Cartitem.id !== item.id))
+}
+
+const handleCheckOut = ()=>{
+  setGoCart([]);
+}
+
   return (
     <>
       <NavBar goCart={goCart}></NavBar>
@@ -30,7 +38,7 @@ const handleCart = (items) =>{
         toggle === "productSec" &&  <Products goCart={goCart} handleCart={handleCart} productPromise={productPromise}></Products>
        }
        {
-        toggle === "cart" && <Cart goCart={goCart}></Cart>
+        toggle === "cart" && <Cart handleCheckOut={handleCheckOut} handleDelete={handleDelete} goCart={goCart}></Cart>
        }
       </Suspense>
     </>

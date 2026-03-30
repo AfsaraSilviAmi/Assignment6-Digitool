@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CartCard = ({item}) => {
+const CartCard = ({item, handleDelete}) => {
     return (
         <div className='flex justify-between bg-base-200 p-5 rounded-2xl'>
             <div className='flex items-center gap-3'>
@@ -11,7 +11,7 @@ const CartCard = ({item}) => {
                 </div>
             </div>
             <div>
-                <button className='btn btn-error btn-outline'>Remove</button>
+                <button onClick={()=>handleDelete(item)} className='btn btn-error btn-outline'>Remove</button>
             </div>
         </div>
     );

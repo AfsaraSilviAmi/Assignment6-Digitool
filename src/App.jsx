@@ -7,6 +7,8 @@ import Tab from './components/Tab'
 import Products from './components/Products'
 import Cart from './components/Cart'
 import { toast, ToastContainer } from 'react-toastify'
+import Step from './components/Step'
+import PricingDiv from './components/PricingDiv'
 
 function App() {
 const productPromise = fetch("/products.json").then((res)=>res.json());
@@ -46,6 +48,8 @@ const handleCheckOut = ()=>{
         toggle === "cart" && <Cart handleCheckOut={handleCheckOut} handleDelete={handleDelete} goCart={goCart}></Cart>
        }
       </Suspense>
+      <Step></Step>
+      <PricingDiv></PricingDiv>
       <ToastContainer/>
     </>
   )

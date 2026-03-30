@@ -2,7 +2,7 @@ import React from 'react';
 
 const CartCard = ({item, handleDelete}) => {
     return (
-        <div className='flex justify-between bg-base-200 p-5 rounded-2xl'>
+        <div className='md:flex md:justify-between bg-base-200 p-5 rounded-2xl'>
             <div className='flex items-center gap-3'>
                 <img src={item.icon} alt="" />
                 <div>

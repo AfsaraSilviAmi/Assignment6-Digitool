@@ -1,6 +1,7 @@
 import React from 'react';
 import { CiPlay1 } from 'react-icons/ci';
 import { GoDotFill } from 'react-icons/go';
+import BannerImg from '../assets/products/banner.png'
 
 
 const Banner = () => {
@@ -9,7 +10,7 @@ const Banner = () => {
             <div className="hero w-11/12 mx-auto bg-base-100 min-h-screen">
   <div className="hero-content flex-col-reverse lg:flex-row-reverse">
     <img
-      src="/src/assets/banner.png"
+      src={BannerImg}
       className="max-w-sm rounded-lg shadow-2xl ml-7 w-full"
     />
     <div>
